@@ -1,7 +1,7 @@
 #!/usr/bin/expect -f
 spawn vncpasswd
 expect  "*word:*"
-send "demo2020\n"
+send "jk7253\n"
 expect  "*Verify:*"
-send "demo2020\n"
+send "jk7253\n"
 expect eof
